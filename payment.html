@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,500;1,900&family=Story+Script&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <p>Menunggi Konfirmasi Pembayaran...</p>
+    <p class="harga">Harga Barang : ******<br>
+    Delivery : &emsp;&emsp;&emsp;1.000<br>
+    Biaya Admin : &ensp;2.000<br>
+    TOTAL : &emsp;&emsp;&emsp;&ensp; ******</p>
+    <p>Konfirmasi PIN:</p>
+   <div class="cred"><input class="pwd" type="password" placeholder="Masukkan PIN"></input></div>
+   <a href="./berhasil.html"><div class="bayar"><button class="pay">Bayar Sekarang</button></div></a>
+</body>
+</html>
+<style>
+    button {
+        background-color: #c44900;
+        text-decoration: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    body {
+        background-color: #183a37;
+        color: #efd6ac;
+    }
+
+    .harga {
+        font-size: 20pt;
+        font-weight: 500;
+    }
+
+    .bayar {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .pay {
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        color: #efd6ac;
+        font-size: 16pt;
+        font-weight: 700;
+    }
+
+    p {
+        font-family: Poppins;
+        font-size: 24pt;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cred {
+        display: flex;
+        justify-content: center;
+    }
+    input {
+        width: 300px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        padding-left: 140px;
+        padding-top: 7px;
+    }
+    input::placeholder {
+        font-family: Poppins;
+        font-size: 16pt;
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+    }

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Seller</title>
+    <style>
+        *{
+    transition: 0.3s all;
+}
+
+.product {
+    background-color: rgb(255, 255, 255);
+    width: 230px;   
+    height: 350px;
+    box-shadow: -1px 11px 30px -10px rgba(0,0,0,0.75);
+    border-radius: 10pt;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 5px;
+}
+
+.product a {
+    text-decoration: none;
+    color: #183a37;
+}
+
+.productlist {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.productlist2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product:hover {
+    padding-top: 0px;
+}
+
+.sectionname {
+    font-size: 24pt;
+    color: #c44900;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    position: sticky;
+}
+
+hr {
+display: block;
+margin-top: 40px;
+margin-left: auto;
+margin-right: auto;
+border-style: solid;
+border-width: 3px;
+color: #efd6ac;
+}
+
+.detail {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight:500;
+    font-size: 16pt;
+    line-height: 1.4;
+}
+
+u {
+    text-decoration: none;
+    color: grey;
+}
+
+b {
+    color: rgb(255, 62, 88);
+}
+
+strong {
+    color: rgb(79, 197, 236);
+}
+
+.IMAGE {
+    padding-top: 3px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding-left: 15px;
+}
+
+body {
+    background-color: #183a37;   
+}
+
+nav {
+    margin-bottom: 100px;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+}
+
+nav a {
+    position: sticky;
+    font-size: 20pt;
+    color: #efd6ac;
+    text-decoration: none;
+    padding-right: 30px;
+    font-weight: 1000;
+    margin-bottom: 5px;   
+}
+
+
+nav a:hover {
+    color: #c44900;
+    font-size: 22pt;
+    margin-bottom: 0px;
+
+}
+html {
+    font-family: Poppins;
+    scroll-behavior: smooth;
+}
+
+.login {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
+    width: 300px;
+    height: 30px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 200px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 3px solid #c44900;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  .form-control:focus {
+    outline: none;
+  }
+  
+  .btn {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #c44900;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+  }
+
+  button:hover {
+    background-color: #17390d;
+    color: #f59505;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  #searchbar {
+    border-radius: 7px;
+    padding-top: 3px;
+    padding-left: 10px;
+    height: 35px;
+    margin-right: 10px;
+    background-color: rgb(95, 117, 92);
+    color: white;
+    font-size: large;
+    font-size: 12pt;
+  }
+
+
+
+  #searchbtn {
+    border-radius: 50px;
+    padding-left: 9px;
+    padding-right: 9px;
+    height: 40px;
+    font-size: 14pt;
+    font-weight: 700;
+    background-color: #c44900;
+  }
+
+  input[type=text]::placeholder{
+    color:rgb(255, 255, 255);
+  }
+    </style>
+</head>
+<body>
+    <section class="productlist">
+    <a href="./kaos.html">
+    <div class="product">
+        <img class="IMAGE" src="https://id-test-11.slatic.net/p/7dd82e7c41d743334cf6af41d614fb7a.jpg" >
+        <p margin-top: 40px; class="detail">Kaos Polos Warna-warni<br><b>Rp 15.000<br>Diskon Hemat!</b></p>
+        </a>
+    </div>
+
+     <div class="product">
+        <a href="./jeans.html">
+        <img class="IMAGE" src="https://down-id.img.susercontent.com/file/id-11134207-7rasb-m3q7hsrt3i8f30">
+        <p class="detail">Celana Jeans Baggy XL<br><b>70.000<br>Diskon Hemat!   </b></p>
+    </a>
+    </div>
+
+    <div class="product">
+        <a href="./sepatu.html">
+        <img class="IMAGE" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs_-UBg6pnYumk6ahPj2jBtGuw8CprLDxtCA&s">
+        <p class="detail">Sepatu Olahraga Trendy Keren<br><b>300.000<br>Diskon Hemat!</b></p>
+        </a>
+    </div>
+</body>
+</html>
