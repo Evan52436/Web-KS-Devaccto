@@ -10,6 +10,7 @@ function minus () {
 
 function tambah () {
         document.getElementById('jumlah').value ++;
-        if (document.getElementById('jumlah').value > 2);
-        alert("maaf stok nya terbatas, hanya tersedia 2 item" );
+    if (document.getElementById('jumlah').value > 2)
+        alert("maaf stok nya terbatas, hanya tersedia 3 item" );
+    
 }
