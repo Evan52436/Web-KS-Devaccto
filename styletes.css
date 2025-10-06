@@ -9,8 +9,8 @@
     box-shadow: -1px 11px 30px -10px rgba(0,0,0,0.75);
     border-radius: 10pt;
     margin-top: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
     padding-top: 5px;
 }
 
@@ -203,4 +203,5 @@ html {
     margin-left: 100px;
     z-index: 0;
     margin-right: 0%;
+
   }
