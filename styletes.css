@@ -1,6 +1,7 @@
 *{
     transition: 0.3s all;
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .product {
@@ -206,6 +207,7 @@ html {
     margin-right: 0%;
 
   }
+
 
 
 
