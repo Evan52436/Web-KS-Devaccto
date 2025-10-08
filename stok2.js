@@ -1,8 +1,11 @@
 // Function yang dijalankan ketika tombol "-" di klik
 function minus () {
     document.getElementById('jumlah').value --;
+    //If = Jika, orang mencoba untuk menambah jumlah item lebih dari stok
     if (document.getElementById('jumlah').value > 0)
+        //Maka = "return" atau kode akan lanjut berjalan
         return;
+        //Atau, JIka = Value dibawah 0, ,maka alert
     else {
         document.getElementById('jumlah').value = 1;
         alert("lu beli apa jir quantity minus");
